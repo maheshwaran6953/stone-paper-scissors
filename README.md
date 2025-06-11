@@ -3,7 +3,8 @@
 A fun and interactive web-based *Stone Paper Scissors* game built using **HTML**, **CSS**, and **JavaScript**.
 
 ## 🌐 Live Demo
-Play it here: [https://your-neocities-url](#)
+Play it here: ## 🌐 Live Demo  
+Play it here: [https://mahesh123.neocities.org/game/stone_paper_scissor](https://mahesh123.neocities.org/game/stone_paper_scissor)
 
 ## ✨ Features
 - Responsive design with clean UI
