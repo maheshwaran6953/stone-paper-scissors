@@ -20,6 +20,14 @@ A fun and interactive web-based *Stone Paper Scissors* game built using **HTML**
 - CSS3 (with animations!)
 - JavaScript (vanilla)
 
+## 🛠️ Tech Stack  
+- ![HTML Badge](https://img.shields.io/badge/HTML-5-orange?style=flat-square)  
+- ![CSS Badge](https://img.shields.io/badge/CSS-3-blue?style=flat-square)  
+- ![JavaScript Badge](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square)  
+
+## 🚀 Deployment  
+![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-brightgreen?style=flat-square)  
+
 ## 🚀 Getting Started
 To run locally:
 1. Clone the repo:
