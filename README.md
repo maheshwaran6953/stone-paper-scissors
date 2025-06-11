@@ -11,6 +11,9 @@ Play it here: [https://your-neocities-url](#)
 - Simple game logic with neat transitions
 - Hosted live via **Neocities**
 
+## 📸 Screenshot  
+- ![Game Preview](preview.png)
+
 ## 🛠️ Built With
 - HTML5
 - CSS3 (with animations!)
