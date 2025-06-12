@@ -5,7 +5,7 @@ A fun and interactive web-based *Stone Paper Scissors* game built using **HTML**
 ## 🟢 Live Demo
 - 🎮 [Neocities Version](https://mahesh123.neocities.org/game/stone_paper_scissor)
 - 🚀 [GitHub Pages Version](https://maheshwaran6953.github.io/stone-paper-scissors/)
-=======
+
 ## 🌐 Live Demo 
 - 🎮 [Neocities Version](https://mahesh123.neocities.org/game/stone_paper_scissor)  
 - 🚀 [GitHub Pages Version](https://maheshwaran6953.github.io/stone-paper-scissors/)
