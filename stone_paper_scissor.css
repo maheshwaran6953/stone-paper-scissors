@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     background: linear-gradient(45deg, #0f172a, #2dd4bf, #9333ea);
     background-size: 300% 300%;
     animation: gradientAnimation 8s infinite alternate ease-in-out;font-family: Arial, sans-serif;
@@ -108,3 +109,120 @@ button.shake {
         transform: translateY(0);
     }
 }
+=======
+
+            background: linear-gradient(45deg, #0f172a, #2dd4bf, #9333ea);
+            background-size: 300% 300%;
+            animation: gradientAnimation 8s infinite alternate ease-in-out;
+
+
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            margin-top: 10%;
+            
+        }
+
+        h1,
+        p {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #f8f9fa;
+            text-align: center;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 2px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        p {
+            font-size: 1.5em;
+            color: #f8f9fa;
+            margin-top: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background: transparent;
+            transition: transform 8s infinite ease-in-out;
+            border: 2px solid #ffffff;
+        }
+
+        h3 {
+            color: #ffca85;
+            opacity: 1;
+            font-weight: bold;
+            text-align: center;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        h3.show {
+            opacity: 1;
+        }
+
+        button {
+            transition: transform 0.2s ease-in-out;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        button.shake {
+            animation: shake 0.3s ease-in-out;
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-5px);
+            }
+
+            50% {
+                transform: translateX(5px);
+            }
+
+            75% {
+                transform: translateX(-5px);
+            }
+
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 10%;
+            }
+
+            25% {
+                background-position: 20% 30%;
+            }
+
+            100% {
+                background-position: 60% 50%;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-40px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+>>>>>>> 7ff4699 (Fresh upload of Stone Paper Scissors game)
