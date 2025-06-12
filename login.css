@@ -1,0 +1,81 @@
+/* Reset Default Margin & Padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(45deg, #0f172a, #2dd4bf, #9333ea);
+    background-size: 300% 300%;
+    animation: gradientAnimation 8s infinite alternate ease-in-out;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* Login Form Styling */
+.form {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #2dd4bf;
+    border: 1px solid transparent;
+    margin: 10% auto;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    margin: 30px 0;
+}
+
+/* Paragraphs */
+p {
+    font-size: 20px;
+    margin: 15px;
+}
+
+/* Input Fields */
+input {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #b2a8a8;
+    background-color: #ededed;
+    color: #000000;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+/* Buttons */
+button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Hover Effect for Button */
+button:hover {
+    cursor: pointer;
+}
+
+/* New User Registration Link */
+.new {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/* Background Animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 10%;
+    }
+    100% {
+        background-position: 60% 50%;
+    }
+}
