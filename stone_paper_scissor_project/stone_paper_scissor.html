@@ -10,6 +10,16 @@
 </head>
 
 <body>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let loggedInUser = localStorage.getItem("currentUser");
+
+        if (!loggedInUser) {
+            alert("You need to log in first!");
+            window.location.href = "login.html"; // Redirect to login page
+        }
+    });
+</script>
     <h1>Welcome to game</h1>
     <p>Choose your option:</p>
     <button onclick="playGame('stone')">Stone</button>
