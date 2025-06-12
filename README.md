@@ -10,7 +10,7 @@ A fun and interactive web-based *Stone Paper Scissors* game built using **HTML**
 - Responsive design with clean UI
 - Emoji-based animations
 - Simple game logic with neat transitions
-- Hosted live via **Neocities**
+- Hosted live via **Neocities** and **GitHub pages**
 
 ## 📸 Screenshot  
 - ![Game Preview](preview.png)
